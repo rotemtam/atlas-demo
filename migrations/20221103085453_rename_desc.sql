@@ -1,5 +1,3 @@
 ALTER TABLE posts 
-  drop column description;
+  rename column description to summary;
 
-ALTER TABLE posts 
-  add column description text;
