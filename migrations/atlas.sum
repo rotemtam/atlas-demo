@@ -1,7 +1,8 @@
-h1:cD2EYIZI5pHAwLklw3L2pfqKm/pq4gzQ2G35Hc9RLH8=
+h1:t79RJmviuU+dCBp4BhhSF5QDKq3m/HWKgu903ctPQdE=
 20221109072034_init.sql h1:xlY7xxWACaVa92dr0piKY5p61oyweCkih6qStrjezEo=
 20221109085340_add_blogposts.sql h1:X0zJPexyD9cZgsKyYWARqcUfP4ITSr/xPpUKq8V5CFw=
 20221109090118_tags.sql h1:VnZ2lKNLmNUs7GnPJWGDAaJoWAqwClaocZBG5POihm8=
 20221109091847_add_post_summary.sql h1:dAHOtf/QNf74BMfL0d2ci5kBTYwAeB4/6+Ryiapvm4s=
 20221109092230_add_comments.sql h1:KkTKwLxH2ZlQ46qxZGWorPOLO7Cfxe7tPRPGqhixkso=
 20221109092842_summary_required.sql h1:c12t9ubbLRRpf7sK/CCzkqWWQOqnT7AnECYjT0lVbAg=
+20221109093612_drop_comments.sql h1:ihUZ4yi2XeF0spHvzSP0C6lqK37ar3DgVqjhx8+5vZM=
