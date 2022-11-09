@@ -1,0 +1,1 @@
+alter table blog_posts add column summary varchar(100);

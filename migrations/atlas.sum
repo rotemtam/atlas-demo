@@ -1,4 +1,5 @@
-h1:Sb8xBse9lVFOqDYGvmNoHBTFKM4SdrzysRiBRQoUAKM=
+h1:fqLyC4zELUK6bL2TFHmG2wbf3Y9iaJ4unzyo6KjL1J8=
 20221109072034_init.sql h1:xlY7xxWACaVa92dr0piKY5p61oyweCkih6qStrjezEo=
 20221109085340_add_blogposts.sql h1:X0zJPexyD9cZgsKyYWARqcUfP4ITSr/xPpUKq8V5CFw=
 20221109090118_tags.sql h1:VnZ2lKNLmNUs7GnPJWGDAaJoWAqwClaocZBG5POihm8=
+20221109091847_add_post_summary.sql h1:dAHOtf/QNf74BMfL0d2ci5kBTYwAeB4/6+Ryiapvm4s=
