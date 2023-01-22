@@ -6,3 +6,4 @@ create table users
     primary key (id),
     unique (email)
 );
+--- comment
