@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ariga/atlas-sync-action@v0
-          with:
-            dir: migrations
-            driver: mysql
-            cloud-token: ${{ secrets.ARIGA_TOKEN }}
+        with:
+          dir: migrations
+          driver: mysql
+          cloud-token: ${{ secrets.ARIGA_TOKEN }}
