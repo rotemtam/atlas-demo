@@ -23,6 +23,6 @@ jobs:
         run: |
           curl -sSf https://atlasgo.sh | sh -s -- -y
       - run: |
-          atlas migrate apply --dir migrations/ -u postgres://postgres:pass@localhost:5432/test
+          atlas migrate apply --dir migrations/ -u 'postgres://postgres:pass@localhost:5432/test'
       - run: |
           echo "Run your tests here!"

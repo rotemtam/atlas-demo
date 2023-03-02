@@ -24,6 +24,6 @@ jobs:
         run: |
           curl -sSf https://atlasgo.sh | sh -s -- -y
       - run: |
-          atlas migrate apply --dir migrations/ -u mysql://root:pass@localhost:3306/dev
+          atlas migrate apply --dir migrations/ -u 'mysql://root:pass@localhost:3306/dev'
       - run: |
           echo "Run your tests here!"
