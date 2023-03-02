@@ -2,7 +2,7 @@ name: Integration Test (MySQL)
 on:
   push:
 jobs:
-  lint:
+  integration:
     services:
       mysql:
         image: mysql:8.0.29

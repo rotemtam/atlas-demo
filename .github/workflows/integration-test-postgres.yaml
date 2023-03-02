@@ -2,7 +2,7 @@ name: Integration Test (Postgres)
 on:
   push:
 jobs:
-  lint:
+  integration:
     services:
       postgres10:
         image: postgres:10
