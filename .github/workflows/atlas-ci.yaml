@@ -38,7 +38,7 @@ jobs:
           ariga-token: ${{ secrets.ARIGA_TOKEN }}
   sync:
     depends-on: lint
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
