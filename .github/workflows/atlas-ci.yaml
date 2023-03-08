@@ -36,3 +36,14 @@ jobs:
           dir: 'migrations'
           dev-url: mysql://root:pass@localhost:3306/dev
           ariga-token: ${{ secrets.ARIGA_TOKEN }}
+  sync:
+    depends-on: lint
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ariga/atlas-sync-action@v0
+          with:
+            dir: 'migrations'
+            driver: mysql # or: postgres | sqlite
+            cloud-token: ${{ secrets.ARIGA_TOKEN }}
