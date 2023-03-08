@@ -37,7 +37,7 @@ jobs:
           dev-url: mysql://root:pass@localhost:3306/dev
           ariga-token: ${{ secrets.ARIGA_TOKEN }}
   sync:
-    depends-on: lint
+    needs: lint
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
