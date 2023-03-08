@@ -1,4 +1,4 @@
-name: Atlas CI
+name: Atlas
 on:
   # Run whenever code is changed in the master branch,
   # change this to your root branch.
@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ariga/atlas-sync-action@v0
-          with:
-            dir: 'migrations'
-            driver: mysql # or: postgres | sqlite
-            cloud-token: ${{ secrets.ARIGA_TOKEN }}
+        with:
+          dir: 'migrations'
+          driver: mysql # or: postgres | sqlite
+          cloud-token: ${{ secrets.ARIGA_TOKEN }}
