@@ -35,7 +35,7 @@ jobs:
         with:
           dir: 'migrations'
           dev-url: mysql://root:pass@localhost:3306/dev
-          ariga-token: ${{ secrets.ARIGA_TOKEN }}
+          cloud-public: true
   sync:
     needs: lint
     if: github.ref == 'refs/heads/main'
@@ -46,4 +46,4 @@ jobs:
         with:
           dir: 'migrations'
           driver: mysql # or: postgres | sqlite
-          cloud-token: ${{ secrets.ARIGA_TOKEN }}
+          cloud-public: true
