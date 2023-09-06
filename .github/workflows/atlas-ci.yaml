@@ -47,3 +47,4 @@ jobs:
           dir: 'migrations'
           driver: mysql # or: postgres | sqlite
           cloud-public: true
+          dev-url: mysql://root:pass@localhost:3306/dev
