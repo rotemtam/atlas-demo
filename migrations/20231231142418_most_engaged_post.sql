@@ -1,0 +1,2 @@
+-- Create "author_most_engaged_post" view
+CREATE VIEW `author_most_engaged_post` (`author_id`, `post_id`, `title`, `comment_count`) AS select `bp`.`author_id` AS `author_id`,`bp`.`id` AS `post_id`,`bp`.`title` AS `title`,`bp`.`comment_count` AS `comment_count` from (`blog_posts` `bp` join (select `blog_posts`.`author_id` AS `author_id`,max(`blog_posts`.`comment_count`) AS `max_comments` from `blog_posts` group by `blog_posts`.`author_id`) `subq` on(((`bp`.`author_id` = `subq`.`author_id`) and (`bp`.`comment_count` = `subq`.`max_comments`))));

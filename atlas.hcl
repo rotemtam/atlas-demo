@@ -1,3 +1,4 @@
 env "local" {
-  dev = "mysql://root:pass@localhost:3306/dev"
+  src = "file://schema.hcl"
+  dev = "docker://mysql/8/dev"
 }
